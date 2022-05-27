@@ -20,6 +20,6 @@ def find_anagram(word = input("input your word: "), anagram = input("input the t
     
     else:
         print("The words are not anagrams.")
-        return
+        return False
         
 find_anagram()
